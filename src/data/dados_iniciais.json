@@ -1,21 +1,21 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Politicos politicos",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Série sobre politicos que praticam politica",
+        "url": "https://www.youtube.com/watch?v=QSz-T0tueO0"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O que diz muito sobre NÓS #BateuEDoeuPegaQueETeu",
+          "url": "https://www.youtube.com/watch?v=pDV3SGzV3m4"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "POLÍTICOS POLÍTICOS: MARCIA LUCENA",
+          "url": "https://www.youtube.com/watch?v=QSz-T0tueO0"
         },
         {
           "titulo": "Componentização com VanillaJS #AluraMais",
