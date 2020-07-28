@@ -12,7 +12,7 @@ function App() {
       
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].titulo}
+        url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={"O que podemos fazer com Front-End?"}
       />
       
