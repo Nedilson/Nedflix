@@ -20,7 +20,10 @@ body {
 a {
   color: inherit;
 }
-/* 
+
 #root {
-  min-height: 100vh;
-} */
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
