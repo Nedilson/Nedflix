@@ -56,17 +56,13 @@ function CadastroCategoria() {
           name="descricao"
           onChange={handleChange}
         />
-        <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={values.cor}
-              name="cor"
-              onChange={handleChange}
-            />
-          </label>
-        </div>
+        <FormField
+          label="Cor"
+          type="color"
+          value={values.cor}
+          name="cor"
+          onChange={handleChange}
+        />
 
         <Button>
           Cadastrar
@@ -74,8 +70,8 @@ function CadastroCategoria() {
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={categoria.nome}>
             {categoria.nome}
           </li>
         ))}
