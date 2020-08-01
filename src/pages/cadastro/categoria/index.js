@@ -28,7 +28,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL_GLOW = 'http://localhost:8080/categorias';
+    const URL_GLOW = window.location.host.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://nedflix.herokuapp.com/categorias';
     fetch(URL_GLOW)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -81,9 +83,11 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
-      <div>
-        carregando...
-      </div>
+      {categorias.length === 0 && (
+        <div>
+          carregando...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
