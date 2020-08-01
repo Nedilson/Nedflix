@@ -3,10 +3,11 @@ import config from '../config';
 const URL_VIDEOS = `${config.URL_BACKEND}/videos`;
 
 function create(objetoDoVideo) {
+  console.log(JSON.stringify(objetoDoVideo));
   return fetch(`${URL_VIDEOS}?_embed=videos`, {
     method: 'POST',
     headers: {
-      'Content-type': 'aplication/json',
+      'Content-type': 'application/json',
     },
     body: JSON.stringify(objetoDoVideo),
   })
@@ -16,9 +17,6 @@ function create(objetoDoVideo) {
         return resposta;
       }
       throw new Error('Não foi possível cadastrar os dados :(');
-    //   setCategorias([
-    //     ...resposta,
-    //   ]);
     });
 }
 
