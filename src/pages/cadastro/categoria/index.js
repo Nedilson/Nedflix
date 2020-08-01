@@ -3,35 +3,22 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import URL_BACKEND from '../../../config';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '',
+    cor: '#FFFFFF',
   };
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
-    const URL_GLOW = window.location.host.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://nedflix.herokuapp.com/categorias';
-    fetch(URL_GLOW)
+    fetch(URL_BACKEND)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
         setCategorias([
@@ -54,7 +41,7 @@ function CadastroCategoria() {
           ...categorias,
           values,
         ]);
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
         <FormField
@@ -91,8 +78,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={categoria.nome}>
-            {categoria.nome}
+          <li key={categoria.titulo}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
