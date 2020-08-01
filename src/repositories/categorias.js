@@ -1,6 +1,6 @@
 import config from '../config';
 
-const URL_CATEGORIES = `${config.URL_BACKEND}/categorias?_embed=dvideos`;
+const URL_CATEGORIES = `${config.URL_BACKEND}/categorias?_embed=videos`;
 
 function getAllWhithVideos() {
   return fetch(URL_CATEGORIES)
