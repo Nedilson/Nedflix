@@ -32,7 +32,7 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription="Os incômodos das relações do dia a dia"
+                videoDescription="O Mamilos é um podcast semanal que discute os temas polêmicos apresentando diversos argumentos e diferentes visões para que os ouvintes formem sua opinião de maneira crítica."
               />
               <Carousel
                 ignoreFirstVideo

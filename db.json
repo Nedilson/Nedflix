@@ -2,43 +2,47 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Politicos politicos",
-      "cor": "#6BD1FF",
+      "titulo": "Destaques",
+      "cor": "#b82750",
       "link_extra": {
-        "text": "",
-        "url": "https://www.youtube.com/watch?v=pDV3SGzV3m4"
+        "text": "Mamilos Podcast",
+        "url": "https://www.b9.com.br/shows/mamilos/"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Comportamento",
+      "cor": "#746c2a",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Episódios sobre emoções, relacionamentos e tudo mais acerca das nossas vidas.",
+        "url": "https://www.youtube.com/playlist?list=PLnfrneznEvmdqL-FJNPjAb6TTp71NwUNx"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Economia",
+      "cor": "#fbe468",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "Episódios que falam sobre economia, seus desdobramentos e questões polêmicas.",
+        "url": "https://www.youtube.com/playlist?list=PLnfrneznEvmffFqy-Js1_WtMBSQXXguSf"
       }
     },
     {
       "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
+      "titulo": "Politica",
+      "cor": "#f6c368",
+      "link_extra": {
+        "text": "Episódios com as polêmicas e discussões da política do Brasil e do mundo",
+        "url": "https://www.youtube.com/watch?v=8b7gv7dPiGg&list=PLnfrneznEvmcnkkYau7e8e8PhGcXJEXCa"
+      }
     },
     {
       "id": 5,
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Palestras",
+      "cor": "#fbe44e",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Palestras e mediações feitas por Ju Wallauer e Cris Bartis",
+        "url": "https://www.youtube.com/watch?v=gOgrS0FDjjk&list=PLnfrneznEvmdbdnyr_P_EJ0XTMgBsUgrY"
       }
     }
   ],
@@ -46,152 +50,164 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "O que diz muito sobre NÓS #BateuEDoeuPegaQueETeu",
-      "url": "https://www.youtube.com/watch?v=pDV3SGzV3m4"
+      "titulo": "Conheça o MAMILOS",
+      "url": "https://www.youtube.com/watch?v=3jYc3kImYCg"
     },
     {
-      "id": 2,
+      "titulo": "Pets - Mamilos podcast - Ep. 221",
+      "url": "https://www.youtube.com/watch?v=BzbLD3K8au0",
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=QSz-T0tueO0"
+      "id": 26
     },
     {
-      "id": 3,
+      "titulo": "Emicida em AmarElo - Mamilos podcast com Emicida - Ep. 222",
+      "url": "https://www.youtube.com/watch?v=ezBVZFuWdKk",
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "id": 27
     },
     {
-      "id": 4,
+      "titulo": "Mamilos no GNT",
+      "url": "https://www.youtube.com/watch?v=S3VPXz2JNyk",
       "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "id": 28
     },
     {
-      "id": 5,
+      "titulo": "A felicidade é inútil - Feat. Clóvis de Barros e Monja Coen - Ep. 231",
+      "url": "https://www.youtube.com/watch?v=EdOcePtGjXQ",
       "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "id": 29
     },
     {
-      "id": 6,
+      "titulo": "Comunicação não-violenta: Derrubando muros - Mamilos podcast",
+      "url": "https://www.youtube.com/watch?v=wMf24wocCa4",
       "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "id": 30
     },
     {
-      "id": 7,
+      "titulo": "Humor na Quarentena - Mamilos podcast com Júlia Rabello e Paulo Vieira - Ep. 244",
+      "url": "https://www.youtube.com/watch?v=kfNWoRaqG40",
       "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "id": 31
     },
     {
-      "id": 8,
+      "titulo": "Saudade - Mamilos podcast com Alexandre Coimbra Amaral - Ep. 259",
+      "url": "https://www.youtube.com/watch?v=lIXdX-7nKL8",
+      "categoriaId": 1,
+      "id": 32
+    },
+    {
+      "titulo": "Bacurau: Descolonizando o olhar - Mamilos podcast c Túlio Custódio, Rita V. Hunty, Thomás Aquino 217",
+      "url": "https://www.youtube.com/watch?v=8qFZ7Q4tdFw",
+      "categoriaId": 1,
+      "id": 33
+    },
+    {
+      "titulo": "Meio ambiente: proteger x crescer - Mamilos Podcast com Nurit Bensusan e Juliano Assunção - Ep. 252",
+      "url": "https://www.youtube.com/watch?v=g4OFj4bChYU",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "titulo": "Travessias - Mamilos podcast com Pr. Henrique Vieira e Maria Homem - Ep. 250",
+      "url": "https://www.youtube.com/watch?v=is5rqjUmXlQ",
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "id": 35
     },
     {
-      "id": 9,
+      "titulo": "Ansiedade - Mamilos podcast com Cecilia Dassi e Pedro Milanesi - Ep. 246",
+      "url": "https://www.youtube.com/watch?v=113mQzmtty4",
       "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "id": 36
     },
     {
-      "id": 10,
+      "titulo": "Sobrevivendo ao Coronavírus - Mamilos podcast com Atila Iamarino e outros convidados - Ep. 243",
+      "url": "https://www.youtube.com/watch?v=97VGDbDnV_I&list=PLnfrneznEvmdqL-FJNPjAb6TTp71NwUNx&index=5&t=0s",
       "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "id": 37
     },
     {
-      "id": 11,
+      "titulo": "Improviso: Estratégia de sobrevivência - Mamilos podcast",
+      "url": "https://www.youtube.com/watch?v=qkYubqH-Z38&",
       "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "id": 38
     },
     {
-      "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 13,
+      "titulo": "Como proteger vidas e salvar a economia? Mamilos podcast c/ Monica de Bolle e Samuel Pessôa - Ep 245",
+      "url": "https://www.youtube.com/watch?v=lSV26-BTmsc",
       "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "id": 39
     },
     {
-      "id": 14,
+      "titulo": "Desigualdade à brasileira - Mamilos podcast + Marcelo Manzano Daniel Duque Gabriela Chaves - Ep. 228",
+      "url": "https://www.youtube.com/watch?v=5gy0iit-Igo",
       "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "id": 40
     },
     {
-      "id": 15,
+      "titulo": "Meio ambiente: proteger x crescer - Mamilos Podcast com Nurit Bensusan e Juliano Assunção - Ep. 252",
+      "url": "https://www.youtube.com/watch?v=g4OFj4bChYU",
       "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "id": 41
     },
     {
-      "id": 16,
+      "titulo": "Novo marco do saneamento básico - Mamilos podcast com Elena Landau e Marco Antônio Rocha - Ep. 258",
+      "url": "https://www.youtube.com/watch?v=ORRPxTAbrvY",
       "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "id": 42
     },
     {
-      "id": 17,
+      "titulo": "EUA x China: Liderança em Disputa - Mamilos podcast com Oliver Stuenkel e Fernanda Magnotta - Ep 261",
+      "url": "https://www.youtube.com/watch?v=eUuHuN_BAHY",
       "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "id": 43
     },
     {
-      "id": 18,
+      "titulo": "Corrupção - Mamilos c/ Alberto Carlos Almeida, Silvio Antonio Marques e Marcos Fernandes - Ep 257",
+      "url": "https://www.youtube.com/watch?v=LgqNSJlgr0I",
       "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "id": 44
     },
     {
-      "id": 19,
+      "titulo": "Resistência - Abolição e o presente - Mamilos podcast c/ Anielle Franco e Cecília Olliveira - Ep 254               ",
+      "url": "https://www.youtube.com/watch?v=7ii5AKCLNFo",
       "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "id": 45
     },
     {
-      "id": 20,
+      "titulo": "Dia da África - Mamilos podcast com José Eduardo Agualusa e Eliana NZualo - Ep. 253",
+      "url": "https://www.youtube.com/watch?v=Isc0EVxQOVc",
       "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "id": 46
     },
     {
-      "id": 21,
+      "titulo": "Desigualdade à brasileira - Mamilos podcast + Marcelo Manzano Daniel Duque Gabriela Chaves - Ep. 228",
+      "url": "https://www.youtube.com/watch?v=5gy0iit-Igo",
+      "categoriaId": 4,
+      "id": 47
+    },
+    {
+      "titulo": "TEDx | Como transformar sua paixão em negócio e ganhar dinheiro - Ju Wallauer",
+      "url": "https://www.youtube.com/watch?v=xLjpb7NE3dE&list=PLnfrneznEvmdbdnyr_P_EJ0XTMgBsUgrY&index=6&t=0s",
       "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "id": 48
     },
     {
-      "id": 22,
+      "titulo": "Violência Doméstica: por que elas não vão embora? | Juliana Wallauer | TEDxFortaleza",
+      "url": "https://www.youtube.com/watch?v=gOgrS0FDjjk",
       "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "id": 49
     },
     {
-      "id": 23,
+      "titulo": "O que significa fazer jornalismo de peito aberto | Cris Bartis | TEDxCampinas",
+      "url": "https://www.youtube.com/watch?v=3jYc3kImYCg",
       "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "id": 50
     },
     {
-      "id": 24,
+      "titulo": "Mamilos entrevista Andrew Solomon (LEGENDADO)",
+      "url": "https://www.youtube.com/watch?v=yu_hxGXyeqo",
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=ukvGm4mYXaM",
-      "categoriaId": 1,
-      "id": 25
+      "id": 51
     }
   ]
 }
