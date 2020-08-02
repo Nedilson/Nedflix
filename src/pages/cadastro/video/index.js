@@ -14,7 +14,7 @@ function CadastroVideo() {
   const { handleChange, values } = useForm({
     titulo: '',
     url: '',
-    categoria: 'Palestras',
+    categoria: '',
   });
 
   useEffect(() => {
